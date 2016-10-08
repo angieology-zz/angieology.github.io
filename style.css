@@ -113,9 +113,9 @@ body.side-page{
 }
 
 @media screen and (max-width: 480px){
-	/*a {
+	a {
 		
-		font-size: 0.8em;
+		font-size: 1em;
 		
 	}
 	h3{
@@ -123,5 +123,5 @@ body.side-page{
 	}
 	.menu {
 		
-	}*/
+	}
 }
