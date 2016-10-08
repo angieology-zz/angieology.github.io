@@ -37,6 +37,7 @@ header {
   width:auto;
   vertical-align: middle;
 }
+
 /*for logo*/
 header img {
   display: inline-block;
@@ -128,12 +129,24 @@ body.side-page{
 	{
 		width:80%;
 	}
+	.header-elements {
+		margin-top: 10%;
+	}
+	.main {
+		margin-top: 10%;
+	}
 }
 @media screen and (min-width: 480px) and (max-width: 800px){
 	
 	header{
 		 background-size: cover;
-		 height:80%;
+		 height:90%;
+	}
+	.header-elements {
+		margin-top: 10%;
+	}
+	.main {
+		margin-top: 7%;
 	}
 	
 }
