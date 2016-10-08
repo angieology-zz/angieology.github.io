@@ -9,7 +9,7 @@ body {
   	vertical-align: middle;
 }
 .main {
-	margin: 0 auto;
+	margin: 2em auto;
 	max-width: 50em;
 	line-height: 1.5;
 	padding: 4em 1em;
@@ -29,7 +29,7 @@ header {
   background-image: url("header.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 150%;
   line-height: 1.2;
   padding: 20vw 2em;
   text-align: center;
@@ -95,6 +95,7 @@ a:hover {
 }
 body.side-page{
 	 background-image: url("header.jpg");
+	 background-size: cover;
 }
 .content{
 	background-color:white;
@@ -110,7 +111,7 @@ body.side-page{
 	margin-left:auto;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 500px){
 	a {
 		
 		font-size: 0.8em;
@@ -120,7 +121,7 @@ body.side-page{
 		font-size: 0.8em;
 	}
 	header{
-		 background-size: 300%;
+		 background-size: 350%;
 	}
 	.menu {
 		width:80%;
@@ -133,23 +134,15 @@ body.side-page{
 	.header-elements {
 		margin-top: 10%;
 	}
-	/*.main {
-		margin-top: 10%;
-	}*/
 }
-@media screen and (min-width: 480px) and (max-width: 800px){
+@media screen and (min-width: 500px) and (max-width: 1000px){
 	
 	header{
-		 background-size: cover;
+		 background-size: 250%;
 		 
 	}
 	.header-elements {
-		margin-top: 15%;
+		margin-top: 20%;
 	}
-	/*body{
-		min-height: 190%;
-	}
-	.main {		height:auto;
-	}*/
 	
 }
