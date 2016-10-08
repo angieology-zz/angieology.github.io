@@ -6,6 +6,7 @@ body {
   	margin-left:0;
   	margin-top:0;
   	min-height: 200%;
+  	vertical-align: middle;
 }
 .main {
 	margin: 0 auto;
@@ -13,6 +14,7 @@ body {
 	line-height: 1.5;
 	padding: 4em 1em;
 	min-height:  100%;
+  	vertical-align: middle;
 }
 h2 {
 	margin-top: 1em;
@@ -36,7 +38,7 @@ header {
   text-align: center;
   height:100%;
   width:auto;
-
+  vertical-align: middle;
 }
 /*for logo*/
 header img {
