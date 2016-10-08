@@ -5,7 +5,7 @@ body {
 	margin-right:0;
   	margin-left:0;
   	margin-top:0;
-  	min-height: 200%;
+  	min-height: 175%;
   	vertical-align: middle;
 }
 .main {
@@ -33,7 +33,7 @@ header {
   line-height: 1.2;
   padding: 20vw 2em;
   text-align: center;
-  height:auto;
+  height:75%;
   width:auto;
   vertical-align: middle;
 }
@@ -124,6 +124,7 @@ body.side-page{
 	}
 	.menu {
 		width:80%;
+
 	}
 	.secondary .menu
 	{
@@ -132,21 +133,23 @@ body.side-page{
 	.header-elements {
 		margin-top: 10%;
 	}
-	.main {
+	/*.main {
 		margin-top: 10%;
-	}
+	}*/
 }
 @media screen and (min-width: 480px) and (max-width: 800px){
 	
 	header{
 		 background-size: cover;
-		 height:90%;
+		 
 	}
 	.header-elements {
 		margin-top: 15%;
 	}
-	.main {
-		margin-top: 15%;
+	/*body{
+		min-height: 190%;
 	}
+	.main {		height:auto;
+	}*/
 	
 }
