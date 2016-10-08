@@ -113,7 +113,7 @@ body.side-page{
 }
 
 @media screen and (max-width: 480px){
-	a {
+	/*a {
 		
 		font-size: 0.8em;
 		
@@ -123,5 +123,5 @@ body.side-page{
 	}
 	.menu {
 		
-	}
+	}*/
 }
