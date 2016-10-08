@@ -104,3 +104,17 @@ body.side-page{
 	margin-right:auto;
 	margin-left:auto;
 }
+
+@media screen and (max-width: 480px){
+	a {
+		
+		font-size: 0.8em;
+		
+	}
+	h3{
+		font-size: 0.8em;
+	}
+	.menu {
+		
+	}
+}
