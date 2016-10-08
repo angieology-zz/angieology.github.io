@@ -134,6 +134,9 @@ body.side-page{
 	.header-elements {
 		margin-top: 10%;
 	}
+	.main {
+		margin: 4em, 2em;
+	}
 }
 @media screen and (min-width: 500px) and (max-width: 1000px){
 	
@@ -143,6 +146,9 @@ body.side-page{
 	}
 	.header-elements {
 		margin-top: 20%;
+	}
+	.main {
+		margin: 3em;
 	}
 	
 }
