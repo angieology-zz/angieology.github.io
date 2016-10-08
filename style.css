@@ -130,23 +130,10 @@ body.side-page{
 	}
 }
 @media screen and (min-width: 480px) and (max-width: 800px){
-	a {
-		
-		font-size: 0.8em;
-		margin: 0.2em 0.4em;
-	}
-	h3{
-		font-size: 0.8em;
-	}
+	
 	header{
 		 background-size: cover;
 		 height:100%;
 	}
-	.menu {
-		width:80%;
-	}
-	.secondary .menu
-	{
-		width:80%;
-	}
+	
 }
