@@ -27,16 +27,13 @@ span.thick{
 header {
   background-color: #263d36;
   background-image: url("header.jpg");
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover, auto;
-  -webkit-background-size: cover, auto;
-  -moz-background-size: cover, auto;
-  -o-background-size: cover, auto;
+  background-size: cover;
   line-height: 1.2;
   padding: 20vw 2em;
   text-align: center;
-  height:100%;
+  height:auto;
   width:auto;
   vertical-align: middle;
 }
@@ -115,13 +112,20 @@ body.side-page{
 @media screen and (max-width: 480px){
 	a {
 		
-		font-size: 1em;
-		
+		font-size: 0.8em;
+		margin: 0.2em 0.4em;
 	}
 	h3{
 		font-size: 0.8em;
 	}
+	header{
+		 background-size: 300%;
+	}
 	.menu {
-		
+		width:80%;
+	}
+	.secondary .menu
+	{
+		width:80%;
 	}
 }
