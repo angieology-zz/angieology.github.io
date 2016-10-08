@@ -122,6 +122,10 @@ body.side-page{
 	}
 	header{
 		 background-size: 350%;
+		 height: 90%;
+	}
+	body{
+		min-height: 190%;
 	}
 	.menu {
 		width:80%;
