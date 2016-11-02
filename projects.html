@@ -2,12 +2,12 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset='UTF-8'">
-
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	
 	<title>
-		Angela's Projects
+		Sample Work
 	</title>
 </head>
 <body class="side-page">
@@ -17,10 +17,29 @@
 			<a href="index.html">home</a>
 			<a href="contact.html">contact</a>
 		</div>
-		<h1>Angela's Projects</h1>
+		<h1>Sample Work</h1>
 	</div>
 	<div class="main content">
-		work work work work work
-	</div>
+
+	<!-- body project -->
+	 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.js"></script>
+		<div id="stock-app-body" ng-app="stockapp" ng-controller="AppCtrl">
+	        <h2>Angela's Watchlist</h2>
+	        <p>Stock information with live update. Features heat-map color box that changes according to price and historical data over a month. Written in Angular and ChartJS, using Yahoo finance API.</p>
+
+	            Apple {{ symbol }}
+	            <div ng-repeat="row in indexResult">
+	                <span class="change" ng-style="{ 'background-color' : RGB(row) }">{{ row }}</span>
+	            </div>
+	        <br/>
+	        <h4>Price through Month</h4>
+	        <canvas id="trends"></canvas>
+
+	    </div>
+	    <script src="stock/script.js"></script>
+		</div>
+	<!-- body project -->
 </body>
 </html>

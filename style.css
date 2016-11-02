@@ -120,6 +120,22 @@ body.side-page{
 	margin-right:auto;
 	margin-left:auto;
 }
+#stock-app-body {
+	-webkit-font-smoothing: antialiased;
+	font-family: "Helvetica";
+	color: #555;
+	margin: 0 auto;
+	max-width: 50em;
+	line-height: 1.5;
+	padding: 2em 1em;
+	
+}
+.change{
+	padding: 1em 1em;
+	position:relative;
+	display:inline-block;
+	color: white;
+}
 
 @media screen and (max-width: 500px){
 	a {
