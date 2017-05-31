@@ -49,6 +49,7 @@ app.controller(
         });
     };
     $scope.getData();
+    $interval($scope.getData,1000 )
 
 
     function initChart() {
